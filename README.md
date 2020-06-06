@@ -17,4 +17,6 @@ nhenpy + the url
 nhenpy url
 ```
 
-for now only suports .cbz files
+supported formats:
+.cbz
+.jpg
