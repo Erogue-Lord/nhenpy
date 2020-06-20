@@ -13,9 +13,9 @@ git clone https://github.com/Erogue-Lord/yahd.git
 python setup.py install
 ```
 
-you can also use wget os curl
+you can also use wget or curl
 
-or you can install directly
+you can install directly
 
 ```Shell
 pip install -e git+https://github.com/Erogue-Lord/yahd.git#egg=yahd
