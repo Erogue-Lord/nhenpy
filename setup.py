@@ -2,17 +2,17 @@
 
 from setuptools import setup, find_packages
 
-setup(name='nhenpy',
-      version='1.1',
+setup(name='yahd',
+      version='1.0',
       description='Command line tool for downloading content from nhentai',
       author='Erogue Lord',
       author_email='maarmota42@gmail.com',
-      url='https://github.com/Erogue-Lord/nhenpy',
+      url='https://github.com/Erogue-Lord/yahd',
       packages=find_packages(),
       license = 'MIT',
       entry_points={
         'console_scripts': [
-            'nhenpy = nhenpy.downloader:main',
+            'yahd = yahd.downloader:main',
         ],
       },
       install_requires=[

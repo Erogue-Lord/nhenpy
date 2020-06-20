@@ -1,4 +1,7 @@
-# nhenpy
+# YAHD
+
+yet another hentai downloader
+
 A CLI tool for downloading nhentai comics
 
 ## Instalation
@@ -6,7 +9,7 @@ A CLI tool for downloading nhentai comics
 git clone then use the `setup.py` to install
 
 ```Shell
-git clone https://github.com/Erogue-Lord/nhenpy.git
+git clone https://github.com/Erogue-Lord/yahd.git
 python setup.py install
 ```
 
@@ -15,18 +18,18 @@ you can also use wget os curl
 or you can install directly
 
 ```Shell
-pip install -e git+https://github.com/Erogue-Lord/nhenpy.git#egg=nhenpy
+pip install -e git+https://github.com/Erogue-Lord/yahd.git#egg=yahd
 ```
 
 ## Usage
 
-nhenpy + the url
+yahd + the url
 
 ```Shell
-nhenpy url
+yahd url
 ```
 
-use nhenpy -h for more information
+use yahd -h for more information
 
 supported formats:
 - .cbz
